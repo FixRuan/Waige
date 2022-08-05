@@ -1,14 +1,16 @@
-import { LinearGradient } from 'expo-linear-gradient';
 import React from 'react';
 
 import {
-    Container
+    Container,
+    Logo,
 } from './styles';
+
+import Logoimg from '../../assets/Logo.png';
 
 export function Header() {
     return (
         <Container>
-
+            <Logo source={Logoimg} />
         </Container>
     );
 }
