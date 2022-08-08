@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 import { TextInputProps } from 'react-native';
 
 export const Container = styled.View`
-   margin-top: -8%;
+   margin-top: -24px;
    width: 100%;
    height: 56px;
    background-color: transparent;
