@@ -28,4 +28,6 @@ export const Button = styled.TouchableOpacity`
     background-color: ${({theme}) => theme.colors.white};
     border-radius: 6px;
     border: 3px solid ${({theme}) => theme.colors.primary[400]};
+    align-items: center;
+    justify-content: center;
 `;

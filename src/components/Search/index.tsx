@@ -1,4 +1,5 @@
 import React from 'react';
+import { MagnifyingGlass } from 'phosphor-react-native';
 
 import {
     Container,
@@ -10,7 +11,9 @@ export function Search() {
     return (
         <Container>
             <Input placeholder="Search" />
-            <Button />
+            <Button>
+                <MagnifyingGlass size={20} />
+            </Button>
         </Container>
     );
 }
